@@ -42,8 +42,11 @@ import UpdateKYC from '../components/UpdateKYC.vue'
 import { useRouter } from 'vue-router'
 import axios from 'axios'
 
+import DownloadKYC from '../components/DownloadKYC.vue'
+
 const currentView = ref('Welcome')
-const components = { Welcome, About, UpdateKYC }
+const components = { Welcome, About, UpdateKYC, DownloadKYC }
+
 
 const user = ref(null)
 const showNotification = ref(false)
